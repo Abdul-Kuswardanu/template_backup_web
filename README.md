@@ -227,29 +227,6 @@ $config['sess_expiration'] = 7200; // 2 jam (dalam detik)
 - Jika file dengan nama sama sudah ada, akan ditambahkan timestamp
 - File temporary ZIP dihapus otomatis setelah download
 
-## 🐛 Troubleshooting
-
-### Error: "Your system folder path does not appear to be set correctly"
-**Solusi**: Download CodeIgniter 3 dan copy folder `system/` ke root project. Lihat `QUICK_START.md`.
-
-### Error: "404 Page Not Found"
-**Solusi**: 
-- Pastikan mod_rewrite enabled di Apache
-- Pastikan `.htaccess` ada di root
-- Cek `base_url` di `application/config/config.php`
-
-### Logo tidak muncul
-**Solusi**: Logo JICT sudah dihapus dari aplikasi. Jika masih muncul, clear browser cache.
-
-### Upload gagal
-**Solusi**:
-- Cek permission folder `upload_1/` dan `upload_2/` (harus writable)
-- Cek ukuran file (max 50MB)
-- Cek ekstensi file (harus diizinkan)
-
-### Session expired
-**Solusi**: Login kembali. Session timeout default 2 jam.
-
 ## 📝 Changelog
 
 ### Version 1.0.0
