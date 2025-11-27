@@ -1,0 +1,34 @@
+# CodeIgniter
+application/logs/*
+application/cache/*
+!application/logs/index.html
+!application/cache/index.html
+
+# System
+system/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.log
+download_file/*
+!download_file/.htaccess
+
+# Assets (keep structure but ignore large files if needed)
+# assets/images/*.jpg
+# assets/images/*.png
+
